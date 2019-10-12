@@ -1,0 +1,234 @@
+.top-header {
+    background: black;
+    color: white;
+
+    .left-info {
+        span {
+            margin-right: 8px;
+        }
+    }
+
+    .dropedDown {
+        position: relative;
+        background: #3BBDC1;
+        padding: 15px;
+
+        &:hover {
+            .dropMenu {
+                visibility: visible;
+                opacity: 1;
+                height: auto;
+            }
+        }
+
+        .dropMenu {
+            position: absolute;
+            transition: .3s ease-in-out;
+            left: 0;
+            top: 100%;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+
+            li {
+                padding: 15px;
+                background: #3BBDC1;
+            }
+        }
+    }
+
+    .profil {
+        padding: 18px 10px 12px 10px;
+        background: rgb(61, 214, 219);
+    }
+
+    .sosial-icon {
+        i {
+            padding: 8px;
+            color: #cccccc;
+        }
+    }
+}
+
+#Setsail {
+    .dropped-menu {
+        position: relative;
+        list-style: none;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .mainDrop {
+        position: absolute;
+        visibility: hidden;
+        z-index: 20;
+        opacity: 0;
+        background: white;
+        padding: 5px;
+        list-style: none;
+    }
+
+
+    .dropped-menu {
+        &:hover {
+            .mainDrop {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .logoItem {
+        max-width: 50%;
+        height: auto;
+
+    }
+
+    li {
+        
+
+    }
+
+    .icon-holder {
+        i {
+            font-size: 1.5rem;
+            padding-top: 25px;
+            padding-right: 12px;
+        }
+    }
+
+}
+
+#Exotic {
+    background: url(https://setsail.select-themes.com/wp-content/uploads/2018/09/destionations-1-title.jpg );
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .places {
+
+
+        .Words {
+            text-align: center;
+            padding: 14rem 0;
+            color: white;
+
+            h1 {
+                font-size: 4rem;
+                font-weight: 700;
+            }
+
+            span {
+                font-size: 2rem;
+                font-weight: 600;
+                font-family: Satisfy, cursive;
+            }
+        }
+    }
+
+}
+
+#destination {
+    .destinatio-text {
+        position: relative;
+        z-index: 10;
+        margin-top: -110px;
+        padding: 40px;
+        background: white;
+        box-shadow: 0 3px 20px 5px rgba(0, 0, 0, .03);
+
+        .tags-btn {
+            background: #40D0D4;
+            border-radius: none;
+            color: white;
+            border: none;
+            margin-bottom: 15px;
+        }
+
+        .good-know {
+            color: white;
+            background: #40D0D4;
+
+            .know-text {
+                padding: 30px;
+            }
+
+            li {
+                list-style: none;
+                padding: 15px;
+
+                i {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        .categori {
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .newsletter {
+            text-align: left;
+            background: #40D0D4;
+            color: white;
+
+            .letter-text {
+                padding: 15px;
+
+            }
+
+            .input2 {
+                border: none;
+                padding: 10px;
+                margin-top: 8px;
+                background: #7EDBDE;
+            }
+        }
+
+        .btnItem {
+            padding: 10px 58px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: none;
+            background: white;
+            color: black;
+            font-weight: 600;
+        }
+    }
+
+    .destinatio-middle {
+        p {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+
+    .meinBtn {
+        padding: 12px 10px;
+        background: #3BBDC1;
+        border: none;
+
+    }
+
+    .input1 {
+        border: none;
+        background: rgb(248, 247, 247);
+        padding: 12px;
+
+    }
+}

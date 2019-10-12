@@ -1,0 +1,136 @@
+.top-header {
+  background: black;
+  color: white; }
+  .top-header .left-info span {
+    margin-right: 8px; }
+  .top-header .dropedDown {
+    position: relative;
+    background: #3BBDC1;
+    padding: 15px; }
+    .top-header .dropedDown:hover .dropMenu {
+      visibility: visible;
+      opacity: 1;
+      height: auto; }
+    .top-header .dropedDown .dropMenu {
+      position: absolute;
+      transition: .3s ease-in-out;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden; }
+      .top-header .dropedDown .dropMenu li {
+        padding: 15px;
+        background: #3BBDC1; }
+  .top-header .profil {
+    padding: 18px 10px 12px 10px;
+    background: #3dd6db; }
+  .top-header .sosial-icon i {
+    padding: 8px;
+    color: #cccccc; }
+
+#Setsail .dropped-menu {
+  position: relative;
+  list-style: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 600; }
+  #Setsail .dropped-menu a {
+    text-decoration: none;
+    color: black; }
+#Setsail .mainDrop {
+  position: absolute;
+  visibility: hidden;
+  z-index: 20;
+  opacity: 0;
+  background: white;
+  padding: 5px;
+  list-style: none; }
+#Setsail .dropped-menu:hover .mainDrop {
+  visibility: visible;
+  opacity: 1; }
+#Setsail .logoItem {
+  max-width: 50%;
+  height: auto; }
+#Setsail .icon-holder i {
+  font-size: 1.5rem;
+  padding-top: 25px;
+  padding-right: 12px; }
+
+#Exotic {
+  background: url(https://setsail.select-themes.com/wp-content/uploads/2018/09/destionations-1-title.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  #Exotic .places .Words {
+    text-align: center;
+    padding: 14rem 0;
+    color: white; }
+    #Exotic .places .Words h1 {
+      font-size: 4rem;
+      font-weight: 700; }
+    #Exotic .places .Words span {
+      font-size: 2rem;
+      font-weight: 600;
+      font-family: Satisfy, cursive; }
+
+#destination .destinatio-text {
+  position: relative;
+  z-index: 10;
+  margin-top: -110px;
+  padding: 40px;
+  background: white;
+  box-shadow: 0 3px 20px 5px rgba(0, 0, 0, 0.03); }
+  #destination .destinatio-text .tags-btn {
+    background: #40D0D4;
+    border-radius: none;
+    color: white;
+    border: none;
+    margin-bottom: 15px; }
+  #destination .destinatio-text .good-know {
+    color: white;
+    background: #40D0D4; }
+    #destination .destinatio-text .good-know .know-text {
+      padding: 30px; }
+    #destination .destinatio-text .good-know li {
+      list-style: none;
+      padding: 15px; }
+      #destination .destinatio-text .good-know li i {
+        padding-right: 10px; }
+  #destination .destinatio-text .categori li {
+    list-style: none; }
+    #destination .destinatio-text .categori li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600; }
+  #destination .destinatio-text .newsletter {
+    text-align: left;
+    background: #40D0D4;
+    color: white; }
+    #destination .destinatio-text .newsletter .letter-text {
+      padding: 15px; }
+    #destination .destinatio-text .newsletter .input2 {
+      border: none;
+      padding: 10px;
+      margin-top: 8px;
+      background: #7EDBDE; }
+  #destination .destinatio-text .btnItem {
+    padding: 10px 58px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: 600; }
+#destination .destinatio-middle p {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+#destination .meinBtn {
+  padding: 12px 10px;
+  background: #3BBDC1;
+  border: none; }
+#destination .input1 {
+  border: none;
+  background: #f8f7f7;
+  padding: 12px; }
+
+/*# sourceMappingURL=style.css.map */
